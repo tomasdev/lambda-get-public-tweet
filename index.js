@@ -10,6 +10,6 @@ exports.handler = async (event) => {
             "Content-Type": "application/json",
             "Access-Control-Allow-Origin": "*"
         },
-        body: JSON.stringify({ tweet });
+        body: JSON.stringify({ tweet })
     };
 };
